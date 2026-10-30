@@ -1,0 +1,18 @@
+{
+  "geode": "5.11.2",
+  "gd": { "win": "2.2081", "android": "2.2081" },
+  "id": "tunombre.level-history",
+  "name": "Level History",
+  "version": "v1.9.0",
+  "developer": "TuNombre",
+  "description": "Consulta niveles borrados o antiguos usando un servicio de historial (GDHistory u otro).",
+  "tags": ["online", "utility"],
+  "settings": {
+    "api-url": {
+      "type": "string",
+      "name": "Dirección del servicio",
+      "description": "Dirección que se consulta. {id} se cambia por el ID del nivel. La dirección por defecto NO está verificada: si no funciona, cámbiala.",
+      "default": "https://history.geometrydash.eu/api/v1/level/{id}/"
+    }
+  }
+}
